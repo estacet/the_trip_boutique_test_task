@@ -1,4 +1,4 @@
-# the_trip_boutique_test_task
+# The Trip Boutique Test Task
 
 ## Project setup
 ```
