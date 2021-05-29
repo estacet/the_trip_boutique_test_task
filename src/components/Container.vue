@@ -1,14 +1,17 @@
 <template>
   <div id="container">
     <Header/>
+    <Map/>
   </div>
 </template>
 
 <script>
 import Header from './Header'
+import Map from "./Map";
 export default {
   name: "Container",
   components: {
+    Map,
     Header
   },
   data() {

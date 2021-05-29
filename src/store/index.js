@@ -7,7 +7,8 @@ Vue.use(Vuex);
 export const store = new Vuex.Store({
     state: {
         places: [],
-        favorite: []
+        favorite: [],
+        currentTab: 'city_guide'
     },
     getters: {
         cityGuide: state => state.places.map(place => ({
@@ -31,6 +32,21 @@ export const store = new Vuex.Store({
         },
         favoriteGuideByPrice: (state, getters) => priceRange => {
             return getters.favorite.filter(place => place.priceRange === priceRange)
+        },
+        placesMapMarkers(state) {
+            const places = state.currentTab === 'favorite'
+                ? state.places.filter(place => state.favorite.includes(place))
+                : state.places;
+
+            return places.map(place => ({
+                name: place.name,
+                address: place.address,
+                phone: place.phone,
+                position: {
+                    lat: place.latitude,
+                    lng: place.longitude,
+                }
+            }));
         }
     },
     mutations: {
