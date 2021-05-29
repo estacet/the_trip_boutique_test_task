@@ -24,7 +24,14 @@ export const store = new Vuex.Store({
             name: place.name,
             priceRange: place.price_range,
             description: place.description
-        }))
+        })),
+        cityGuideByPrice: (state, getters) => priceRange => {
+            console.log(getters)
+            return getters.cityGuide.filter(place => place.priceRange === priceRange)
+        },
+        favoriteGuideByPrice: (state, getters) => priceRange => {
+            return getters.favorite.filter(place => place.priceRange === priceRange)
+        }
     },
     mutations: {
         init(state) {
