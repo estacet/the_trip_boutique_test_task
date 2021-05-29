@@ -1,0 +1,2247 @@
+[
+  {
+    "id": 19,
+    "parent_category_id": 9,
+    "category_id": 64,
+    "category": {
+      "id": 64,
+      "title": "Convivial Space"
+    },
+    "city_id": 4,
+    "name": "KulturBrauerei",
+    "price_range": 2,
+    "description": "\n<p>Kulturbrauerei means culture brewery, and that name is well chosen. This former brewery, spanning 20 industrial 19th-century red brick buildings and 6 courtyards over a 25,000 m2 area in Prenzlauer Berg, is now dedicated to culture, and there's literally nothing you won't be able to find there. Kulturbrauerei hosts a museum on life in former East Germany, a concert hall, a night club, a cinema, theaters, dance schools, restaurants, caf&eacute;s, shops, and much more. You will find a food market with street food trucks on Sunday and there are often open-air concerts.&nbsp;&nbsp;</p>",
+    "description_provider": "Super Admin",
+    "copyright": "© The Trip Boutique",
+    "copyright_url": "https://www.thetripboutique.co",
+    "license": "© The Trip Boutique",
+    "license_url": "https://www.thetripboutique.co",
+    "website": "http://www.kulturbrauerei.de/",
+    "phone": "+49 30 44315152",
+    "email": null,
+    "latitude": 52.539251,
+    "longitude": 13.4135533,
+    "address": "Schönhauser Allee 36, Berlin",
+    "postal_code": "10435",
+    "show_on_map": "https://maps.google.com/?cid=1994452411317672679",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 378,
+        "author": "KulturBrauerei",
+        "author_url": "https://maps.google.com/maps/contrib/103900735466996673395",
+        "license": null,
+        "license_url": null,
+        "order": 389,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/378/conversions/593fd59838706f1fe7243ad47502b807-medium.jpg"
+      },
+      {
+        "id": 379,
+        "author": "KulturBrauerei",
+        "author_url": "https://maps.google.com/maps/contrib/103900735466996673395",
+        "license": null,
+        "license_url": null,
+        "order": 390,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/379/conversions/7f869ed95591b9910d2bd9d3e9d312ad-medium.jpg"
+      },
+      {
+        "id": 380,
+        "author": "Mihael Grmek",
+        "author_url": "http://commons.wikimedia.org/wiki/User:Meho29",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+        "order": 391,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/380/conversions/b457fe638a55c01bcda2bb299678883b-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 5126,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": []
+          },
+          {
+            "day": "Monday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": []
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": []
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": []
+          },
+          {
+            "day": "Thursday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": []
+          },
+          {
+            "day": "Friday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": []
+          },
+          {
+            "day": "Saturday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": []
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 2,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 1152,
+    "parent_category_id": 2,
+    "category_id": 8,
+    "category": {
+      "id": 8,
+      "title": "Restaurant"
+    },
+    "city_id": 4,
+    "name": "Mariona",
+    "price_range": 3,
+    "description": "<p>Amazing food, friendly service, fair prices - this perfectly sums up Mariona in Kreuzberg, which serves Spanish-style tapas with Catalan, French and Mediterranean accents. The food is fresh, colorful, authentic (the owner is Spanish) and very well executed, and the menu is updated daily. The interior is rather simple, yet classy, with antique details such as stucco, high ceilings and vintage wooden floors. The atmosphere is relaxed and intimate. There are also a few tables outside on the pavement. Mains EUR 15.00 to 18.00, tapas EUR 6.00 to 9.00, dessert around EUR 6.00.&nbsp;</p>",
+    "description_provider": null,
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": "http://www.mariona-berlin.de/",
+    "phone": "+49 30 61671214",
+    "email": null,
+    "latitude": 52.50004,
+    "longitude": 13.43254,
+    "address": "Skalitzer Straße 94B, Berlin",
+    "postal_code": "10997",
+    "show_on_map": "https://maps.google.com/?cid=9842609955205321506",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 4803,
+        "author": "Mariona",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4814,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4803/conversions/1152-3-293999d1df95c08242a39c03c3f032b01737-medium.jpg"
+      },
+      {
+        "id": 4804,
+        "author": "Mariona",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4815,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4804/conversions/1152-1-5e6c360c0dc02674d014c55ffa53b287691-medium.jpg"
+      },
+      {
+        "id": 4805,
+        "author": "Mariona",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4816,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4805/conversions/1152-2-57f356ff2606b3109384427f0fcf2f237486-medium.jpg"
+      },
+      {
+        "id": 4806,
+        "author": "Mariona",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4817,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4806/conversions/1152-4-e024b3a382eea511d5998c5b032e3245574-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 1032,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 1,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 1,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 6,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 737,
+    "parent_category_id": 2,
+    "category_id": 8,
+    "category": {
+      "id": 8,
+      "title": "Restaurant"
+    },
+    "city_id": 4,
+    "name": "Standard - Serious Pizza",
+    "price_range": 2,
+    "description": "<p>The name Standard - Serious Pizza says it all. This hip pizzeria between the Mitte and Prenzlauer Berg neighborhoods is indeed very serious about serving real and tasty Neapolitan pizza (but not standard), and proudly uses only fresh produce from small suppliers. Many ingredients are even sourced directly in Napoli. The menu consists of pizza, salads and dessert, and is adapted according to the availability of the ingredients. Standard can probably claim to the closest you will get to the real Naples pizza in Berlin and maybe even in Germany. While the interior is minimalistic, the atmosphere is cozy, friendly and warm (quite literally!):&nbsp; the gas-fired burner heats up the oven to a staggering 500&deg;C, making the room temperature a bit high.</p>\n<p>Reservations by phone or by email.</p>",
+    "description_provider": "Cedric",
+    "copyright": "© The Trip Boutique",
+    "copyright_url": "https://www.thetripboutique.co",
+    "license": "© The Trip Boutique",
+    "license_url": "https://www.thetripboutique.co",
+    "website": "http://www.standard-berlin.de/",
+    "phone": "+49 30 48625614",
+    "email": null,
+    "latitude": 52.53286399999999,
+    "longitude": 13.4086254,
+    "address": "Templiner Straße 7, Berlin",
+    "postal_code": "10119",
+    "show_on_map": "https://maps.google.com/?cid=15036847729963098245",
+    "action_url": "mailto:hello@standard-berlin.de",
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 3082,
+        "author": "Standard Berlin",
+        "author_url": "https://www.standard-berlin.de/",
+        "license": null,
+        "license_url": null,
+        "order": 3093,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/3082/conversions/737-1-df5e2bfaf10951e3926a54b9f8dd607c8473-medium.jpg"
+      },
+      {
+        "id": 3083,
+        "author": "Standard Berlin",
+        "author_url": "https://www.standard-berlin.de/",
+        "license": null,
+        "license_url": null,
+        "order": 3094,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/3083/conversions/737-2-4958c345a1ce13c68dccdd48c5d3f3da922-medium.jpg"
+      },
+      {
+        "id": 3084,
+        "author": "Standard BErlin",
+        "author_url": "https://www.standard-berlin.de/",
+        "license": null,
+        "license_url": null,
+        "order": 3095,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/3084/conversions/737-3-bf75d398d86c0605f9b191583413a4352281-medium.jpg"
+      },
+      {
+        "id": 3085,
+        "author": "Standard Berlin",
+        "author_url": "https://www.standard-berlin.de/",
+        "license": null,
+        "license_url": null,
+        "order": 3096,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/3085/conversions/737-4-49a283fcdecfb5717b7435edbcc864711665-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 5512,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "13:00",
+                "close": "00:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "00:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "00:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "00:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "00:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "13:00",
+                "close": "00:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 1,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 3,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 586,
+    "parent_category_id": 2,
+    "category_id": 8,
+    "category": {
+      "id": 8,
+      "title": "Restaurant"
+    },
+    "city_id": 4,
+    "name": "Mani",
+    "price_range": 3,
+    "description": "<p>Located in Berlin's beating heart, the Mitte district, MANI serves well executed mezze-like Israeli fusion. Dark colors, wood and leather characterize this trendy and stylish restaurant. The small courtyard section is a real delight on a hot day or evening. Depending on your appetite, count approx. &euro; 50 per person including drinks.&nbsp; &nbsp;</p>",
+    "description_provider": "Cedric",
+    "copyright": "© The Trip Boutique",
+    "copyright_url": "https://www.thetripboutique.co",
+    "license": "© The Trip Boutique",
+    "license_url": "https://www.thetripboutique.co",
+    "website": "https://www.amanogroup.de/de/eat-and-drink/mani-restaurant/",
+    "phone": "+49 30 5302808255",
+    "email": null,
+    "latitude": 52.5293802,
+    "longitude": 13.3995504,
+    "address": "Torstraße 136, Berlin",
+    "postal_code": "10119",
+    "show_on_map": "https://maps.google.com/?cid=12477600685989866563",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 2398,
+        "author": "Mani",
+        "author_url": "https://maps.google.com/maps/contrib/103847257086596986724",
+        "license": null,
+        "license_url": null,
+        "order": 2409,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/2398/conversions/91d92d58fadfe320887f7213436d0c38-medium.jpg"
+      },
+      {
+        "id": 2399,
+        "author": "Mani",
+        "author_url": "https://maps.google.com/maps/contrib/103847257086596986724",
+        "license": null,
+        "license_url": null,
+        "order": 2410,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/2399/conversions/f6e004f370452f4f41f2fc5432a59df4-medium.jpg"
+      },
+      {
+        "id": 2400,
+        "author": "Mani",
+        "author_url": "https://maps.google.com/maps/contrib/103847257086596986724",
+        "license": null,
+        "license_url": null,
+        "order": 2411,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/2400/conversions/6725dcc97a1ac03219d29ea23ce1b085-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 5128,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "19:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 1,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 3,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 452,
+    "parent_category_id": 2,
+    "category_id": 8,
+    "category": {
+      "id": 8,
+      "title": "Restaurant"
+    },
+    "city_id": 4,
+    "name": "Lipopette",
+    "price_range": 2,
+    "description": "<p><span>Quaint flowery wallpapers, vintage furniture, rough wooden floors, and some contrasting contemporary art &ndash; this French caf&eacute; has its own Berlin-inspired character! Enjoy some moules, quiches, and other French treasures &ndash; vegan options available &ndash; in the cozy and relaxed Lipopette. If you fancy high-quality beverages, you should also try their rum or collection of French wines. </span></p>\n<p>&nbsp;</p>",
+    "description_provider": "Fernanda",
+    "copyright": "© The Trip Boutique",
+    "copyright_url": null,
+    "license": "© The Trip Boutique",
+    "license_url": "https://www.thetripbotique.co",
+    "website": "https://www.facebook.com/lipopetteberlin/info?tab=overview",
+    "phone": null,
+    "email": null,
+    "latitude": 52.4702224,
+    "longitude": 13.4271437,
+    "address": "Warthestraße 9, Berlin",
+    "postal_code": "12051",
+    "show_on_map": "https://maps.google.com/?cid=13243969754652636159",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 1832,
+        "author": "LIPOPETTE",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 1843,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1832/conversions/452-1-20d0743592b8d79e8c5e3e0ad7e5a1d1152-medium.jpg"
+      },
+      {
+        "id": 1833,
+        "author": "Lipopette",
+        "author_url": "https://maps.google.com/maps/contrib/110334004412641749007",
+        "license": null,
+        "license_url": null,
+        "order": 1844,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1833/conversions/40b8c103e409d2138e1603b39d122f22-medium.jpg"
+      },
+      {
+        "id": 1834,
+        "author": "LIPOPETTE",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 1845,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1834/conversions/452-2-e8dc45e57d666d0b517f2c3de2749f6c8467-medium.jpg"
+      },
+      {
+        "id": 1835,
+        "author": "LIPOPETTE",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 1846,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1835/conversions/452-3-88362932657b3ffb14e6ca7670073fc6606-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 380,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 1,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "01:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "02:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "18:00",
+                "close": "02:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 6,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 1298,
+    "parent_category_id": 10,
+    "category_id": 65,
+    "category": {
+      "id": 65,
+      "title": "Art Gallery"
+    },
+    "city_id": 4,
+    "name": "C/O Berlin",
+    "price_range": 1,
+    "description": "<p>Next to Berlin's famous zoo, C/O Berlin is a gallery, bookstore and caf&eacute; focused on photography and other visual media. The exhibitions are world-class, thought-provoking and never disappoint. Located inside the historic Amerika Haus Berlin, it also impresses with its post-war architecture.&nbsp;</p>\r\n<p>Admission EUR 10 (reduced EUR 6)</p>",
+    "description_provider": null,
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": null,
+    "phone": "+49 30 28444160",
+    "email": null,
+    "latitude": 52.5066023,
+    "longitude": 13.3306352,
+    "address": "Hardenbergstraße 22-24, Berlin",
+    "postal_code": "10623",
+    "show_on_map": "https://maps.google.com/?cid=3393705573239532140",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 5454,
+        "author": "C/O Berlin",
+        "author_url": "https://maps.google.com/maps/contrib/102103660440863700283/photos",
+        "license": null,
+        "license_url": null,
+        "order": 5465,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/5454/conversions/f513e1197dfb52bd348e93d72e1f7966-medium.jpg"
+      },
+      {
+        "id": 5455,
+        "author": "C/O Berlin",
+        "author_url": "https://maps.google.com/maps/contrib/102103660440863700283/photos",
+        "license": null,
+        "license_url": null,
+        "order": 5466,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/5455/conversions/146205b0c6dae9be7d4ddfe6497cfa72-medium.jpg"
+      },
+      {
+        "id": 5456,
+        "author": "C/O Berlin",
+        "author_url": "https://maps.google.com/maps/contrib/102103660440863700283/photos",
+        "license": null,
+        "license_url": null,
+        "order": 5467,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/5456/conversions/490eef11a73427252ca07c91486f9f1d-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 1165,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "11:00",
+                "close": "20:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "11:00",
+                "close": "20:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "11:00",
+                "close": "20:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "11:00",
+                "close": "20:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "11:00",
+                "close": "20:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "11:00",
+                "close": "20:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "11:00",
+                "close": "20:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 2,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 22,
+    "parent_category_id": 17,
+    "category_id": 31,
+    "category": {
+      "id": 31,
+      "title": "Bar"
+    },
+    "city_id": 4,
+    "name": "Michelberger Bar",
+    "price_range": 2,
+    "description": "<p><span>Although it belongs to the Michelberger hotel, this caf&eacute;&amp;bar is highly popular not just amongst visitors but also amongst Berliners. Its very minimalistic, grey interior enlivened with green plants will calm you down and the bar&rsquo;s self-brewed beers &ndash; Mikkellerberger Pils and Honolulu Hefeweizen &ndash; are deliciously refreshing. Every Friday and Saturday evening, a DJ sets the beat and transforms the sleek, comfortable, and pillow-decorated space into a party scene. Adjacent to the bar is also a spacious courtyard enhanced with lights, white sunshades, and potted trees. If you visit during the winter months, fire pits and a sauna hut will keep you warm.</span></p>\r\n<p class=\"p1\">&nbsp;</p>",
+    "description_provider": null,
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": "http://michelbergerhotel.com/",
+    "phone": "+49 30 29778590",
+    "email": null,
+    "latitude": 52.504651,
+    "longitude": 13.447904,
+    "address": "Warschauer Straße 39-40, Berlin",
+    "postal_code": "10243",
+    "show_on_map": "https://maps.google.com/?cid=6636721743572944101",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 388,
+        "author": "Michelberger Hotel",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 399,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/388/conversions/22-1-b9bd143ad4b7d72733c40e928ff9a7ac7074-medium.jpg"
+      },
+      {
+        "id": 389,
+        "author": "Michelberger Hotel",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 400,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/389/conversions/22-2-37bfb32e20a3fe5f4e4bb11f9decb9211313-medium.jpg"
+      },
+      {
+        "id": 390,
+        "author": "Michelberger Hotel",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 401,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/390/conversions/22-3-5cf4f6ebb3013921235730c0acbe48c25654-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 19,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "06:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "06:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "06:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "06:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "06:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "06:00",
+                "close": "23:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "06:00",
+                "close": "23:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 7,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 426,
+    "parent_category_id": 17,
+    "category_id": 31,
+    "category": {
+      "id": 31,
+      "title": "Bar"
+    },
+    "city_id": 4,
+    "name": "Nathanja & Heinrich Café / Bar Neukölln",
+    "price_range": 2,
+    "description": "<p><span>One of the many shabby chic gems &ndash; bare grey walls and scruffy wooden tables &ndash; in the hip Neuk&ouml;lln neighborhood. However, Nathanja &amp; Heinrich differentiates itself by serving regional beer and fantasy-induced cocktail specials. Find yourself a spot in one of the second-hand chairs and enjoy this hipster drinking den popular with the young crowd of Berlin. </span></p>\r\n<p>&nbsp;</p>",
+    "description_provider": "Fernanda",
+    "copyright": "© The Trip Boutique",
+    "copyright_url": null,
+    "license": "© The Trip Boutique",
+    "license_url": "https://www.thetripboutique.co",
+    "website": "http://nathanja-heinrich.de/",
+    "phone": null,
+    "email": null,
+    "latitude": 52.4873228,
+    "longitude": 13.4367703,
+    "address": "Weichselstraße 44, Berlin",
+    "postal_code": "12045",
+    "show_on_map": "https://maps.google.com/?cid=11047598165323680066",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 1739,
+        "author": "Nthanja & Heinrich",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 1750,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1739/conversions/7850bf9dd88b4646c0400a2fc4f37595-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 358,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "13:00",
+                "close": "03:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "15:00",
+                "close": "03:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "15:00",
+                "close": "03:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "15:00",
+                "close": "03:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "15:00",
+                "close": "03:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "15:00",
+                "close": "03:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "13:00",
+                "close": "03:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 7,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 368,
+    "parent_category_id": 17,
+    "category_id": 31,
+    "category": {
+      "id": 31,
+      "title": "Bar"
+    },
+    "city_id": 4,
+    "name": "Luzia Bar",
+    "price_range": 2,
+    "description": "<p>Post-industrial venue where things are really busy on weekend nights. Coming over for a cup of coffee during the day is also an option.</p>",
+    "description_provider": "sygic",
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": "http://www.luzia.tc/",
+    "phone": "+49 30 81799958",
+    "email": null,
+    "latitude": 52.5016784,
+    "longitude": 13.4182857,
+    "address": "Oranienstraße 34, Berlin",
+    "postal_code": "10999",
+    "show_on_map": "https://maps.google.com/?cid=5276204697799399147",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 1565,
+        "author": "Luzia",
+        "author_url": "https://www.facebook.com/luziabar/",
+        "license": null,
+        "license_url": null,
+        "order": 1576,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1565/conversions/92f87f21ad53cdad2ebaec3919f39d3f-medium.jpg"
+      },
+      {
+        "id": 1566,
+        "author": "Luzia",
+        "author_url": "https://www.facebook.com/luziabar/",
+        "license": null,
+        "license_url": null,
+        "order": 1577,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1566/conversions/3a25d1765d4805eefc9d174cc91faeb0-medium.jpg"
+      },
+      {
+        "id": 1567,
+        "author": "Luzia",
+        "author_url": "https://www.facebook.com/luziabar/",
+        "license": null,
+        "license_url": null,
+        "order": 1578,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1567/conversions/2849a1ab8e3c8eb39eca0c37ca5a0f6f-medium.jpg"
+      },
+      {
+        "id": 1568,
+        "author": "Luzia",
+        "author_url": "https://www.facebook.com/luziabar/",
+        "license": null,
+        "license_url": null,
+        "order": 1579,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1568/conversions/7faba117aaaef520ba9ff8ee35c5310a-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 5066,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "05:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "05:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "05:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "05:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "05:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "05:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "12:00",
+                "close": "05:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 5,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 1125,
+    "parent_category_id": 4,
+    "category_id": 29,
+    "category": {
+      "id": 29,
+      "title": "Café"
+    },
+    "city_id": 4,
+    "name": "Café KRONE",
+    "price_range": 2,
+    "description": "<p>Caf&eacute; Krone is located in Prenzlauer Berg on the Oderberger stra&szlig;e, which is famous for its cute shops, restaurants and caf&eacute;. A great place for breakfast, brunch or a snack, Caf&eacute; Krone serves a wide variety of cakes, eggs, pancakes and sandwiches, all freshly made. The interior, with its brick walls, picture frames and comfy sofas feels like home and is cozy and laid back - an invitation to linger. There is also a small outside seating areas for catching some sunshine.&nbsp;</p>",
+    "description_provider": null,
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": "http://www.krone-berlin.com/",
+    "phone": "+49 30 35125772",
+    "email": null,
+    "latitude": 52.539744,
+    "longitude": 13.406048,
+    "address": "Oderberger Straße 38, Berlin",
+    "postal_code": "10435",
+    "show_on_map": "https://maps.google.com/?cid=9788573762002946448",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 4705,
+        "author": "www.krone-berlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4716,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4705/conversions/1125-2-deab6901bd6d54054bee8d3f3f5043024597-medium.jpg"
+      },
+      {
+        "id": 4706,
+        "author": "www.krone-berlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4717,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4706/conversions/1125-1-0105ccc4344d2dc41f4cbfc0f3ec1c7f317-medium.jpg"
+      },
+      {
+        "id": 4707,
+        "author": "www.krone-berlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4718,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4707/conversions/1125-3-264a453907d403a9ef616976684a81492064-medium.jpg"
+      },
+      {
+        "id": 4708,
+        "author": "www.krone-berlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4719,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4708/conversions/1125-4-b635aba0f6fc8d5e669a93ed45701f8d6083-medium.jpg"
+      },
+      {
+        "id": 4709,
+        "author": "www.krone-berlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4720,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4709/conversions/1125-5-4509460e82be97f1d4e44fe27c3d86454638-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 1006,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:30",
+                "close": "19:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "16:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "16:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "16:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "16:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "16:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:30",
+                "close": "18:30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 1,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 1148,
+    "parent_category_id": 11,
+    "category_id": 76,
+    "category": {
+      "id": 76,
+      "title": "Experience"
+    },
+    "city_id": 4,
+    "name": "Berlin Food Tour",
+    "price_range": 3,
+    "description": "<p>If you are a passionate foodie, Berlin Food Tour is exactly what you must try. An experienced and dedicated guide (English speaking) will drive you through a tasting experience across the best of the Berliner cuisine with some international influences. You will be introduced to the street-food culture, the beer halls, the way locals go out and eat and much more. Throughout the experience you will as well walk down the historical streets and bohemian neighbourhoods, see the latest street art and come across the Berlin Wall and East Side Gallery. The menu can be adapted to food allergies or special dietary requirements. Children are welcome to join and the ticket is free of charge for 0-2 years old. Teenagers' (13-17) ticket is &euro;56, while adults' (over 18) ticket is &euro;59. Embark on a delicious three-hours German gastronomy tour!</p>",
+    "description_provider": null,
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": "https://www.biteberlin.com/the-berlin-mitte-tour",
+    "phone": "+4915224913716",
+    "email": null,
+    "latitude": 52.52265269999999,
+    "longitude": 13.4023045,
+    "address": "Germany",
+    "postal_code": "10178",
+    "show_on_map": "https://maps.google.com/?cid=7727645945779319757",
+    "action_url": "https://www.biteberlin.com/the-berlin-mitte-tour",
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 4789,
+        "author": "www.biteberlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4800,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4789/conversions/1148-2-8585202b4163a000038d191c0ef379548054-medium.jpg"
+      },
+      {
+        "id": 4790,
+        "author": "www.biteberlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4801,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4790/conversions/1148-1-8ec7f1065e21eb72c516de6c2c09caff1804-medium.jpg"
+      },
+      {
+        "id": 4791,
+        "author": "www.biteberlin.com",
+        "author_url": null,
+        "license": null,
+        "license_url": null,
+        "order": 4802,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/4791/conversions/1148-3-cd3e9bdec098dc020983af76c02acbbc7799-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 3834,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": []
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 4,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 3921,
+    "parent_category_id": 9,
+    "category_id": 59,
+    "category": {
+      "id": 59,
+      "title": "Street"
+    },
+    "city_id": 4,
+    "name": "Karl-Marx-Allee",
+    "price_range": null,
+    "description": "<p>The grand boulevard of Berlin was being built during most of the 1950s and is a beautiful showcase of Soviet architecture. Originally, it was named Gro&szlig;e Frankfurter Stra&szlig;e but soon after its construction was finished, its name was changed to Stalinallee. The statue of Stalin was located there till 1961 when it was removed, and after the fall of communism, it was named Karl-Marx-Allee, although this name is still controversial. The street is lined with beautiful, pompous and stately high-rise blocks that nowadays often house shops, restaurants or caf&eacute;s. A peaceful stroll or cycling tour down the Karl-Marx-Allee is always pleasant and the boulevard itself is definitely worth seeing.&nbsp;</p>",
+    "description_provider": "sygic",
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": null,
+    "phone": null,
+    "email": null,
+    "latitude": 52.5170397,
+    "longitude": 13.4441798,
+    "address": "104 Karl-Marx-Allee, Berlin 10243, Germany",
+    "postal_code": "10243",
+    "show_on_map": "https://go.sygic.com/travel/place?id=poi:932",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 14951,
+        "author": "Gryffindor",
+        "author_url": "http://commons.wikimedia.org/wiki/User:Gryffindor",
+        "license": "Public domain",
+        "license_url": null,
+        "order": 14962,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/14951/conversions/3921-karl-marx-allee-8d1741a71ddcffe550798e1e1a5067646282-medium.jpg"
+      },
+      {
+        "id": 14952,
+        "author": "Jean-Pierre Dalbéra",
+        "author_url": "https://commons.wikimedia.org/wiki/File:La_Strausberger_Platz_(Karl-Marx-Allee,_Berlin)_(6074764510).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "order": 14963,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/14952/conversions/15753244f1a93480125730b1eb0ac7a3-medium.jpg"
+      },
+      {
+        "id": 14953,
+        "author": "Fridolin freudenfett",
+        "author_url": "http://commons.wikimedia.org/wiki/User:Fridolin_freudenfett",
+        "license": "CC BY-SA 4.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+        "order": 14964,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/14953/conversions/3921-karl-marx-allee-f9b153069901a52df4fac689f58e51d67144-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 3922,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 4,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 355,
+    "parent_category_id": 17,
+    "category_id": 31,
+    "category": {
+      "id": 31,
+      "title": "Bar"
+    },
+    "city_id": 4,
+    "name": "Mein Haus am See",
+    "price_range": 2,
+    "description": "<p>Cozy bar, caf&eacute;, and club with great atmosphere and very cool music variety, situated in the heart of Berlin Mitte. The interior is definitely worth seeing - hipster mecca so don't forget to bring your Mac computer. The place often holds live concerts as well as other events.</p>",
+    "description_provider": "sygic",
+    "copyright": null,
+    "copyright_url": null,
+    "license": null,
+    "license_url": null,
+    "website": "http://mein-haus-am-see.com/",
+    "phone": "+49 163 5558033",
+    "email": null,
+    "latitude": 52.5299737,
+    "longitude": 13.4007379,
+    "address": "Brunnenstr. 197-198, Berlin",
+    "postal_code": "10119",
+    "show_on_map": "https://maps.google.com/?cid=10715637694252733095",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 1497,
+        "author": "Mein Haus am See",
+        "author_url": "https://www.mein-haus-am-see.club/",
+        "license": null,
+        "license_url": null,
+        "order": 1508,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1497/conversions/0a6a9f64ec60cc39e351e21db7b04e48-medium.jpg"
+      },
+      {
+        "id": 1498,
+        "author": "Mein Haus am See",
+        "author_url": "https://maps.google.com/maps/contrib/111795358502844864781",
+        "license": null,
+        "license_url": null,
+        "order": 1509,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1498/conversions/5e8f52611ec10c9549474c76be0e0dc8-medium.jpg"
+      },
+      {
+        "id": 1499,
+        "author": "Mein Haus am See",
+        "author_url": "https://www.mein-haus-am-see.club/",
+        "license": null,
+        "license_url": null,
+        "order": 1510,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1499/conversions/788793d8577e60f4c6cbaf6b133c4549-medium.jpg"
+      },
+      {
+        "id": 1500,
+        "author": "Mein Haus am See",
+        "author_url": "https://www.mein-haus-am-see.club/",
+        "license": null,
+        "license_url": null,
+        "order": 1511,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1500/conversions/1b168030f9f80f44993cb1861dbcde13-medium.jpg"
+      },
+      {
+        "id": 1501,
+        "author": "Mein Haus am See",
+        "author_url": "https://www.mein-haus-am-see.club/",
+        "license": null,
+        "license_url": null,
+        "order": 1512,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1501/conversions/9c60bb2e09255af83dbe0852fbbea30c-medium.jpg"
+      },
+      {
+        "id": 1502,
+        "author": "Mein Haus am See",
+        "author_url": "https://www.mein-haus-am-see.club/",
+        "license": null,
+        "license_url": null,
+        "order": 1513,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/1502/conversions/65d8efc0bd45168ddafc3c50f1188d1c-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 4383,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "00:00",
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "07:00",
+                "close": "00:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 1,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": null,
+                "close": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 5,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  },
+  {
+    "id": 2231,
+    "parent_category_id": 4,
+    "category_id": 29,
+    "category": {
+      "id": 29,
+      "title": "Café"
+    },
+    "city_id": 4,
+    "name": "No Fire No Glory",
+    "price_range": 2,
+    "description": "<p><span>For excellent brunch that goes well with an excellent specialty coffee, try the </span><span>No Fire No Glory </span><span>caf&eacute;. It&rsquo;s not just a pretty great name they have but also a great custom house blend! Match it with their signature pancakes topped with an egg and crispy bacon while you sit in the lovely wicker chairs in front of the caf&eacute; or on the rock&rsquo;n&rsquo;roll leather sofa inside. </span></p>",
+    "description_provider": "Denisa Vitova",
+    "copyright": "© The Trip Boutique",
+    "copyright_url": "https://www.thetripboutique.co",
+    "license": "© The Trip Boutique",
+    "license_url": "https://www.thetripboutique.co",
+    "website": "https://www.nofirenoglory.de/",
+    "phone": "+49 30 28839233",
+    "email": null,
+    "latitude": 52.5366659,
+    "longitude": 13.4204562,
+    "address": "Rykestraße 45, Berlin",
+    "postal_code": "10405",
+    "show_on_map": "https://maps.google.com/?cid=3020635450420482534",
+    "action_url": null,
+    "action_text": "",
+    "virtual_tour_link": null,
+    "virtual_tour_description": "",
+    "virtual_tour_booking_button": "",
+    "images": [
+      {
+        "id": 8157,
+        "author": "NO FIRE NO GLORY",
+        "author_url": "https://maps.google.com/maps/contrib/103992841840811486265",
+        "license": null,
+        "license_url": null,
+        "order": 8168,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/8157/conversions/7cefe9d7cf96c1ec6086ae6b9303fcba-medium.jpg"
+      },
+      {
+        "id": 8158,
+        "author": "NO FIRE NO GLORY",
+        "author_url": "https://maps.google.com/maps/contrib/103992841840811486265/photos",
+        "license": null,
+        "license_url": null,
+        "order": 8169,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/8158/conversions/c1ab14cb8e994b3d89ea60031b879a62-medium.jpg"
+      },
+      {
+        "id": 8159,
+        "author": "NO FIRE NO GLORY",
+        "author_url": "https://maps.google.com/maps/contrib/103992841840811486265/photos",
+        "license": null,
+        "license_url": null,
+        "order": 8170,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/8159/conversions/82f88738c8db3b006ea75ba5a5a8d5ca-medium.jpg"
+      },
+      {
+        "id": 8160,
+        "author": "NO FIRE NO GLORY",
+        "author_url": "https://maps.google.com/maps/contrib/103992841840811486265/photos",
+        "license": null,
+        "license_url": null,
+        "order": 8171,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/8160/conversions/6545285256ec4313b721ac052923c26f-medium.jpg"
+      },
+      {
+        "id": 8161,
+        "author": "NO FIRE NO GLORY",
+        "author_url": "https://maps.google.com/maps/contrib/103992841840811486265",
+        "license": null,
+        "license_url": null,
+        "order": 8172,
+        "main": false,
+        "path": "https://core.thetripboutique.co//storage/8161/conversions/debf55ec484e55a66a2cb99f6844709e-medium.jpg"
+      }
+    ],
+    "working_periods": [
+      {
+        "id": 4305,
+        "seasonal": false,
+        "start_day": null,
+        "start_month": null,
+        "end_day": null,
+        "end_month": null,
+        "year": null,
+        "working_days": [
+          {
+            "day": "Sunday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "17:00"
+              }
+            ]
+          },
+          {
+            "day": "Monday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "17:00"
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "17:00"
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "17:00"
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "17:00"
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "17:00"
+              }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "full_day": 0,
+            "closed": 0,
+            "time_periods": [
+              {
+                "open": "09:00",
+                "close": "17:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": false,
+    "disclaimer_title": null,
+    "disclaimer_description": null,
+    "disclaimer_image": null,
+    "day_part_id": 1,
+    "day_order": 1,
+    "on_review": false,
+    "requires_replacement": false,
+    "replaced": false
+  }
+]
