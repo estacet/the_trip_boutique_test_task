@@ -4,6 +4,11 @@ import data from '../json/data'
 
 Vue.use(Vuex);
 
+function prepareDescription(description)
+{
+    return description.replace(/(<([^>]+)>)/ig, '').slice(0, 150).trim() + '...';
+}
+
 export const store = new Vuex.Store({
     state: {
         places: [],
@@ -14,20 +19,19 @@ export const store = new Vuex.Store({
         cityGuide: state => state.places.map(place => ({
             id: place.id,
             image: place.images[0].path,
-            name: place.name,
+            title: place.name,
             priceRange: place.price_range,
-            description: place.description,
+            description: prepareDescription(place.description),
             isFavorite: state.favorite.includes(place)
         })),
         favorite: state => state.favorite.map(place => ({
             id: place.id,
             image: place.images[0].path,
-            name: place.name,
+            title: place.name,
             priceRange: place.price_range,
-            description: place.description
+            description: prepareDescription(place.description)
         })),
         cityGuideByPrice: (state, getters) => priceRange => {
-            console.log(getters)
             return getters.cityGuide.filter(place => place.priceRange === priceRange)
         },
         favoriteGuideByPrice: (state, getters) => priceRange => {
@@ -49,6 +53,18 @@ export const store = new Vuex.Store({
             }));
         }
     },
+
+    actions: {
+        init({ commit }) {
+            commit('init')
+        },
+        addToFavorite({ state, commit }, id) {
+            const place = state.places.find(place => place.id === id)
+
+            commit('addToFavorite', place)
+        }
+    },
+
     mutations: {
         init(state) {
             state.places = data
@@ -57,14 +73,4 @@ export const store = new Vuex.Store({
             state.favorite.push(place)
         }
     },
-    actions: {
-        init({ commit }) {
-            commit('init')
-        },
-        addToFavorite({ state, commit }, { id }) {
-            const place = state.places.find(place => place.id === id)
-
-            commit('addToFavorite', place)
-        }
-    }
 })

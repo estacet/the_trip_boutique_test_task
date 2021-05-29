@@ -1,20 +1,22 @@
 <template>
-  <GmapMap
-      :center="centerCoordinates"
-      :zoom="zoom"
-      map-type-id="terrain"
-      style="width: 800px; height: 500px"
-  >
-    <GmapMarker
-        :key="index"
-        v-for="(marker, index) in placesMapMarkers"
-        :position="marker.position"
-        :clickable="true"
-        :draggable="false"
-        @click="toggleInfoWindow(marker,index)"
-    />
-    <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen" @closeclick="infoWinOpen=false" />
-  </GmapMap>
+  <div class="map">
+    <GmapMap
+        :center="centerCoordinates"
+        :zoom="zoom"
+        map-type-id="terrain"
+        style="width: 509px; height: 824px"
+       >
+      <GmapMarker
+          :key="index"
+          v-for="(marker, index) in placesMapMarkers"
+          :position="marker.position"
+          :clickable="true"
+          :draggable="false"
+          @click="toggleInfoWindow(marker,index)"
+      />
+      <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen" @closeclick="infoWinOpen=false" />
+    </GmapMap>
+  </div>
 </template>
 
 <script>
@@ -68,3 +70,10 @@ export default {
   }
 }
 </script>
+<style lang="less" scoped>
+.map {
+  position: absolute;
+  margin: 0 30px;
+}
+
+</style>

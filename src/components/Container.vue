@@ -1,7 +1,13 @@
 <template>
   <div id="container">
-    <Header/>
-    <Map/>
+    <b-row>
+      <b-col cols="7">
+        <Header/>
+      </b-col>
+      <b-col cols="5">
+        <Map/>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
@@ -24,8 +30,8 @@ export default {
   #container {
     position: relative;
     top: 88px;
-    width: 1440px;
-    height: 88px;   //TODO: delete height&width
+    height: 100vh; //TODO: do smth
+    padding-top: 42px;
 
     background: #FFFFFF;
   }

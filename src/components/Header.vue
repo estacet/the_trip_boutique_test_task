@@ -1,11 +1,11 @@
 <template>
   <div class="header">
     <div class="header-menu">
-      <b-tabs class="header-menu_tab">
-        <b-tab title="City guide" class="" active>
+      <b-tabs class="header-menu_tab" align="center">
+        <b-tab title="City guide" active>
           <CityGuide/>
         </b-tab>
-        <b-tab title="Favorite" class="">
+        <b-tab title="Favorite">
           <Favorite/>
         </b-tab>
       </b-tabs>
@@ -34,53 +34,62 @@ export default {
 </script>
 
 <style lang="less" >
-.header-menu {
-  position: absolute;
-  width: 754px;
-  height: 50px;
-  left: 147px;
-  top: 141px;
+.header {
 
-  background: #EEEEEE;
-
-  .header-menu_tab {
+  .header-menu {
     position: absolute;
-    width: 228px;
-    height: 38px;
-    left: 263px;
+    margin-top: 11px;
+    width: 754px;
+    height: 50px;
+    left: 147px;
 
-    .nav-tabs {
-      margin: 12px 0;
-      border-bottom: none;
+    background: #EEEEEE;
 
-      .nav-item {
-        height: 26px;
+    .header-menu_tab {
+      position: absolute;
+      //width: 228px;
+      width: inherit;
+      height: 38px;
+      // left: 263px;
 
-        a {
-          padding: 0;
-          font-family: Helvetica;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 26px;
-          letter-spacing: 0em;
-          text-align: left;
+      .nav-tabs {
+        margin: 12px 0;
+        border-bottom: none;
 
-          background-color: unset;
-          border: none;
+        .nav-item {
+          height: 26px;
 
-          color:  #999999;
+          a {
+            padding: 0;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            background-color: unset;
+            border: none;
+
+            color: #999999;
+          }
+
+          .active {
+            color: #333333;;
+          }
+
+          &:first-child {
+            margin-right: 98px;
+          }
+
         }
-
-      .active {
-         color: #333333;;
       }
+    }
 
-        &:first-child {
-          margin-right: 98px;
-        }
-
-      }
+    .tab-content {
+      position: absolute;
+      top: 298px;
     }
   }
 }
