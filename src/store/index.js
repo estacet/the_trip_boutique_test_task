@@ -13,34 +13,45 @@ export const store = new Vuex.Store({
     state: {
         places: [],
         favorite: [],
-        currentTab: 'city_guide'
+        currentTab: 'city_guide',
+        chosenPriceRange: null,
     },
     getters: {
-        cityGuide: state => state.places.map(place => ({
-            id: place.id,
-            image: place.images[0].path,
-            title: place.name,
-            priceRange: place.price_range,
-            description: prepareDescription(place.description),
-            isFavorite: state.favorite.includes(place)
-        })),
-        favorite: state => state.favorite.map(place => ({
-            id: place.id,
-            image: place.images[0].path,
-            title: place.name,
-            priceRange: place.price_range,
-            description: prepareDescription(place.description)
-        })),
-        cityGuideByPrice: (state, getters) => priceRange => {
-            return getters.cityGuide.filter(place => place.priceRange === priceRange)
+        cityGuide(state) {
+            let places = state.places.map(place => ({
+                id: place.id,
+                image: place.images[0].path,
+                title: place.name,
+                priceRange: place.price_range,
+                description: prepareDescription(place.description),
+                isFavorite: state.favorite.includes(place)
+            }))
+            if (state.chosenPriceRange === null){
+                return places
+            } 
+            return places.filter(place => place.priceRange === state.chosenPriceRange)
         },
-        favoriteGuideByPrice: (state, getters) => priceRange => {
-            return getters.favorite.filter(place => place.priceRange === priceRange)
+        favorite(state) {
+            let places = state.favorite.map(place => ({
+                id: place.id,
+                image: place.images[0].path,
+                title: place.name,
+                priceRange: place.price_range,
+                description: prepareDescription(place.description)
+            }))
+            if (state.chosenPriceRange === null){
+                return places
+            }
+            return places.filter(place => place.priceRange === state.chosenPriceRange)
         },
         placesMapMarkers(state) {
-            const places = state.currentTab === 'favorite'
+            let places = state.currentTab === 'favorite'
                 ? state.places.filter(place => state.favorite.includes(place))
                 : state.places;
+
+            if (state.chosenPriceRange !== null) {
+                places = places.filter(place => place.price_range === state.chosenPriceRange)
+            }
 
             return places.map(place => ({
                 name: place.name,
@@ -69,6 +80,12 @@ export const store = new Vuex.Store({
             } else {
                 throw new Error('Invalid tab name');
             }
+        },
+        applyPriceFilter( { commit }, priceRange) {
+            commit('applyPriceFilter' , priceRange)
+        },
+        resetFilter( { commit }) {
+            commit('resetFilter')
         }
     },
 
@@ -81,6 +98,12 @@ export const store = new Vuex.Store({
         },
         changeTab(state, name) {
             state.currentTab = name
+        },
+        applyPriceFilter(state, priceRange) {
+            state.chosenPriceRange = priceRange
+        },
+        resetFilter(state) {
+            state.chosenPriceRange = null
         }
     },
 })

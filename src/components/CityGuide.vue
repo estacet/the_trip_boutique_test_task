@@ -2,7 +2,7 @@
   <div>
     <b-card-group>
       <b-row v-for="(place, index) in cityGuide" :key="index">
-        <b-card>
+        <b-card class="place">
             <b-col cols="3">
               <b-card-img :src="place.image" :alt="place.title" img-left class="rounded-0"></b-card-img>
             </b-col>
@@ -32,7 +32,9 @@ import { mapGetters, mapActions } from 'vuex';
 export default {
   name: "CityGuide",
   data() {
-    return {}
+    return {
+
+    }
   },
   methods: {
     ...mapActions(['addToFavorite']),
@@ -49,15 +51,16 @@ export default {
 </script>
 
 <style lang="less" >
- .card {
+ .card.place {
    margin-bottom: 16px;
    height: 210px;
    padding: 0;
-
+   border: none;
+   border-radius: unset;
    background-color: #EEEEEE;
 
    .card-body {
-     padding: 0;
+        padding: 0;
 
      .col-3, .col-9 {
        display: inline-block;

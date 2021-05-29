@@ -38,29 +38,27 @@ export default {
 
 <style lang="less" >
 .header {
+  position: relative;
+  margin-top: 11px;
+  margin-left: 147px;
 
   .header-menu {
-    position: absolute;
-    margin-top: 11px;
-    width: 754px;
+    position: relative;
+    margin-bottom: 25px;
     height: 50px;
-    left: 147px;
 
     background: #EEEEEE;
 
     .header-menu_tab {
-      position: absolute;
-      //width: 228px;
       width: inherit;
       height: 38px;
       // left: 263px;
 
       .nav-tabs {
-        margin: 12px 0;
         border-bottom: none;
 
         .nav-item {
-          height: 26px;
+          height: 50px;
 
           a {
             padding: 0;
@@ -68,7 +66,7 @@ export default {
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 26px;
+            line-height: 50px;
             letter-spacing: 0em;
             text-align: left;
 
@@ -92,7 +90,7 @@ export default {
 
     .tab-content {
       position: absolute;
-      top: 298px;
+      margin-top: 107px;
     }
   }
 }
