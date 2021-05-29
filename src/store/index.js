@@ -62,6 +62,13 @@ export const store = new Vuex.Store({
             const place = state.places.find(place => place.id === id)
 
             commit('addToFavorite', place)
+        },
+        changeTab ( { commit }, tabName ) {
+            if (tabName === 'city_guide' || tabName === 'favorite') {
+                commit('changeTab', tabName)
+            } else {
+                throw new Error('Invalid tab name');
+            }
         }
     },
 
@@ -71,6 +78,9 @@ export const store = new Vuex.Store({
         },
         addToFavorite(state, place) {
             state.favorite.push(place)
+        },
+        changeTab(state, name) {
+            state.currentTab = name
         }
     },
 })

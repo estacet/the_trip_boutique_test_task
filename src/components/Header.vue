@@ -2,10 +2,10 @@
   <div class="header">
     <div class="header-menu">
       <b-tabs class="header-menu_tab" align="center">
-        <b-tab title="City guide" active>
+        <b-tab title="City guide" active @click="changeTab('city_guide')">
           <CityGuide/>
         </b-tab>
-        <b-tab title="Favorite">
+        <b-tab title="Favorite" @click="changeTab('favorite')">
           <Favorite/>
         </b-tab>
       </b-tabs>
@@ -18,6 +18,7 @@
 import CityGuide from './CityGuide'
 import Favorite from "@/components/Favorite";
 import HeaderFilters from './Header-filters'
+import { mapActions } from 'vuex'
 
 export default {
   name: "Header-menu",
@@ -29,7 +30,9 @@ export default {
   data() {
     return {}
   },
-  methods: {}
+  methods: {
+    ...mapActions(['changeTab'])
+  }
 }
 </script>
 
