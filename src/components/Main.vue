@@ -1,7 +1,7 @@
 <template>
-  <div class="header">
-    <div class="header-menu">
-      <b-tabs class="header-menu_tab" align="center">
+  <div class="main">
+    <div class="main-menu">
+      <b-tabs class="main-menu_tab" align="center">
         <b-tab title="City guide" active @click="changeTab('city_guide')">
           <CityGuide/>
         </b-tab>
@@ -21,14 +21,11 @@ import HeaderFilters from './Header-filters'
 import { mapActions } from 'vuex'
 
 export default {
-  name: "Header-menu",
+  name: "main",
   components: {
     CityGuide,
     Favorite,
     HeaderFilters
-  },
-  data() {
-    return {}
   },
   methods: {
     ...mapActions(['changeTab'])
@@ -37,7 +34,7 @@ export default {
 </script>
 
 <style lang="less" >
-.header {
+.main {
   position: relative;
   margin-top: 11px;
   margin-left: 147px;
@@ -47,14 +44,13 @@ export default {
       margin-left: unset;
   }
 
-  .header-menu {
+  .main-menu {
     position: relative;
     margin-bottom: 25px;
     height: 50px;
-
     background: #EEEEEE;
 
-    .header-menu_tab {
+    .main-menu_tab {
       width: inherit;
       height: 38px;
 
@@ -81,10 +77,8 @@ export default {
             line-height: 50px;
             letter-spacing: 0em;
             text-align: left;
-
             background-color: unset;
             border: none;
-
             color: #999999;
           }
 
@@ -99,7 +93,6 @@ export default {
               margin-right: 10%;
             }
           }
-
         }
       }
     }
@@ -121,5 +114,4 @@ export default {
     }
   }
 }
-
 </style>

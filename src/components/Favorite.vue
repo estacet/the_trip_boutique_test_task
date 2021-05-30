@@ -26,16 +26,11 @@
 
 <script>
 import {mapGetters} from 'vuex'
-
+import {getPriceRange} from "@/helper";
 export default {
   name: "Favorite",
-  data() {
-    return {}
-  },
   methods: {
-    getPriceRange(count) {
-      return '$'.repeat(count)
-    }
+    getPriceRange
   },
   computed: {
     ...mapGetters(['favorite'])

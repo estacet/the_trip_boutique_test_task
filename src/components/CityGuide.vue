@@ -3,24 +3,24 @@
     <b-card-group>
       <b-row v-for="(place, index) in cityGuide" :key="index">
         <b-card class="place">
-            <b-col cols="3" class="img-block">
-              <b-card-img :src="place.image" :alt="place.title" img-left class="rounded-0"></b-card-img>
-            </b-col>
-            <b-col cols="9">
-              <b-card-body class="card_text-content" :title="place.title">
-                <span class="card_price">{{ getPriceRange(place.priceRange) }}</span>
-                <span class="card-price_span">{{ getPriceRange(5-place.priceRange) }}</span>
-                <b-card-text>
-                  {{ place.description }}
-                </b-card-text>
-                <div class="card-actions">
-                  <b-link class="card-button" href="#foo"><span class="d-none d-md-inline">Read</span> more</b-link>
-                  <b-button class="card-button_favorite" @click="addToFavorite(place.id)">
-                    <b-icon :icon="place.isFavorite ? 'heart-fill' : 'heart'"></b-icon>
-                  </b-button>
-                </div>
-              </b-card-body>
-            </b-col>
+          <b-col cols="3" class="img-block">
+            <b-card-img :src="place.image" :alt="place.title" img-left class="rounded-0"></b-card-img>
+          </b-col>
+          <b-col cols="9">
+            <b-card-body class="card_text-content" :title="place.title">
+              <span class="card_price">{{ getPriceRange(place.priceRange) }}</span>
+              <span class="card-price_span">{{ getPriceRange(5-place.priceRange) }}</span>
+              <b-card-text>
+                {{ place.description }}
+              </b-card-text>
+              <div class="card-actions">
+                <b-link class="card-button" href="#foo"><span class="d-none d-md-inline">Read</span> more</b-link>
+                <b-button class="card-button_favorite" @click="addToFavorite(place.id)">
+                  <b-icon :icon="place.isFavorite ? 'heart-fill' : 'heart'"></b-icon>
+                </b-button>
+              </div>
+            </b-card-body>
+          </b-col>
         </b-card>
       </b-row>
     </b-card-group>
@@ -29,7 +29,7 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex';
-
+import {getPriceRange} from "@/helper";
 export default {
   name: "CityGuide",
   data() {
@@ -39,19 +39,16 @@ export default {
   },
   methods: {
     ...mapActions(['addToFavorite']),
-    getPriceRange(count) {
-      return '$'.repeat(count)
-    }
+    getPriceRange
   },
   computed: {
-    ...mapGetters(['cityGuide', 'cityGuideByPrice'])
+    ...mapGetters(['cityGuide'])
 
   }
-
 }
 </script>
 
-<style lang="less" >
+<style lang="less">
  .card.place {
    margin-bottom: 16px;
    height: 210px;
@@ -109,7 +106,6 @@ export default {
            line-height: 26px;
            letter-spacing: 0em;
            text-align: left;
-
          }
 
          .card-price_span {
@@ -122,9 +118,7 @@ export default {
            font-weight: normal;
            font-size: 15px;
            line-height: 160%;
-
            letter-spacing: -0.01em;
-
            color: #999999;
          }
 
@@ -143,7 +137,6 @@ export default {
              height: 39px;
              width: 216px;
              text-align: center;
-
              line-height: 39px;
              font-family: Helvetica;
              font-style: normal;
@@ -152,7 +145,6 @@ export default {
              color: #EEEEEE;
              letter-spacing: -0.01em;
              background-color: #333333;
-
              text-decoration: none;
 
              &:hover {
@@ -164,7 +156,6 @@ export default {
                height: 30px;
                line-height: 30px;
              }
-
            }
 
            .card-button_favorite {
@@ -194,5 +185,4 @@ export default {
      }
    }
  }
-
 </style>

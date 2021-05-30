@@ -1,13 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import data from '../json/data'
+import {prepareDescription} from "@/helper";
 
 Vue.use(Vuex);
-
-function prepareDescription(description)
-{
-    return description.replace(/(<([^>]+)>)/ig, '').slice(0, 150).trim() + '...';
-}
 
 export const store = new Vuex.Store({
     state: {
@@ -71,8 +67,9 @@ export const store = new Vuex.Store({
         },
         addToFavorite({ state, commit }, id) {
             const place = state.places.find(place => place.id === id)
-
-            commit('addToFavorite', place)
+            if (!state.favorite.includes(place)) {
+                commit('addToFavorite', place)
+            }
         },
         changeTab ( { commit }, tabName ) {
             if (tabName === 'city_guide' || tabName === 'favorite') {

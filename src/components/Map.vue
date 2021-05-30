@@ -78,24 +78,20 @@ export default {
 </script>
 <style lang="less" scoped>
 .map-container {
- // position: absolute;
   width: 100%;
+
+  @media (max-width: 991px) {
+    margin: unset;
+  }
 
   .map {
     width: 100%;
     height: 824px;
 
     @media (max-width: 991px) {
-      //position: absolute;
       margin: 40px 0;
-      //height: 30%;
       height: 252px;
     }
   }
-
-  @media (max-width: 991px) {
-    margin: unset;
-  }
 }
-
 </style>

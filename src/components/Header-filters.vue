@@ -14,9 +14,6 @@ import { mapActions } from 'vuex'
 
 export default {
   name: "Header-filters",
-  data() {
-    return {}
-  },
   methods: {
     ...mapActions(['applyPriceFilter', 'resetFilter']),
   }
@@ -35,7 +32,6 @@ export default {
     margin: 0 12px;
     width: 100px;
     height: 34px;
-
     background-color: #EEEEEE;
     border: none;
     border-radius: 14px;
@@ -44,14 +40,11 @@ export default {
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-
     color: #5A5A5A;
 
     @media (max-width: 540px) {
       margin-bottom: 10px;
     }
   }
-
 }
-
 </style>
