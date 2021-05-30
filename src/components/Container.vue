@@ -1,10 +1,10 @@
 <template>
-  <div id="container">
+  <div id="container" class="container-fluid">
     <b-row>
-      <b-col cols="7">
+      <b-col lg="7" md="12" sm="12">
         <Header/>
       </b-col>
-      <b-col cols="5">
+      <b-col lg="5" md="12" sm="12">
         <Map/>
       </b-col>
     </b-row>
@@ -26,13 +26,17 @@ export default {
   methods: {}
 }
 </script>
-<style lang="less" scoped>
+<style lang="less">
   #container {
     position: relative;
     top: 88px;
-    height: 100vh; //TODO: do smth
+    height: 100vh;
     padding-top: 42px;
 
     background: #FFFFFF;
+
+    .row > .col-* {
+      padding: unset;
+    }
   }
 </style>

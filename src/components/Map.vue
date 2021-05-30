@@ -1,10 +1,10 @@
 <template>
-  <div class="map">
+  <div class="map-container">
     <GmapMap
         :center="centerCoordinates"
         :zoom="zoom"
         map-type-id="terrain"
-        style="width: 509px; height: 824px"
+        class="map"
        >
       <GmapMarker
           :key="index"
@@ -66,14 +66,36 @@ export default {
         this.infoWinOpen = true;
         this.currentMidx = idx;
       }
+    },
+
+    positionMap() {
+      document.querySelector('.map').style.top = 0
+      document.querySelector('.map').style.position = 'fixed'
+      document.querySelector('.map').style.height = '100%'
     }
   }
 }
 </script>
 <style lang="less" scoped>
-.map {
-  position: absolute;
-  margin: 0 30px;
+.map-container {
+ // position: absolute;
+  width: 100%;
+
+  .map {
+    width: 100%;
+    height: 824px;
+
+    @media (max-width: 991px) {
+      //position: absolute;
+      margin: 40px 0;
+      //height: 30%;
+      height: 252px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    margin: unset;
+  }
 }
 
 </style>

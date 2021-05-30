@@ -24,6 +24,12 @@ export default {
 </script>
 <style lang="less" scoped>
 .header-filters {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 540px) {
+    display: block;
+  }
 
   .filter-price {
     margin: 0 12px;
@@ -40,6 +46,10 @@ export default {
     line-height: 160%;
 
     color: #5A5A5A;
+
+    @media (max-width: 540px) {
+      margin-bottom: 10px;
+    }
   }
 
 }

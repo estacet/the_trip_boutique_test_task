@@ -3,17 +3,18 @@
     <b-card-group>
       <b-row v-for="(place, index) in cityGuide" :key="index">
         <b-card class="place">
-            <b-col cols="3">
+            <b-col cols="3" class="img-block">
               <b-card-img :src="place.image" :alt="place.title" img-left class="rounded-0"></b-card-img>
             </b-col>
             <b-col cols="9">
               <b-card-body class="card_text-content" :title="place.title">
                 <span class="card_price">{{ getPriceRange(place.priceRange) }}</span>
+                <span class="card-price_span">{{ getPriceRange(5-place.priceRange) }}</span>
                 <b-card-text>
                   {{ place.description }}
                 </b-card-text>
                 <div class="card-actions">
-                  <b-link class="card-button" href="#foo">Read more</b-link>
+                  <b-link class="card-button" href="#foo"><span class="d-none d-md-inline">Read</span> more</b-link>
                   <b-button class="card-button_favorite" @click="addToFavorite(place.id)">
                     <b-icon :icon="place.isFavorite ? 'heart-fill' : 'heart'"></b-icon>
                   </b-button>
@@ -59,12 +60,22 @@ export default {
    border-radius: unset;
    background-color: #EEEEEE;
 
+   @media (max-width: 679px) {
+     height: fit-content;
+   }
+
    .card-body {
-        padding: 0;
+     display: flex;
+     padding: 0;
+
+     @media (max-width: 679px) {
+       padding: 16px;
+     }
 
      .col-3, .col-9 {
        display: inline-block;
        padding: 30px 16px 30px 15px;
+       overflow: hidden;
 
        .card-img {
          width: 150px;
@@ -72,6 +83,7 @@ export default {
        }
 
        .card_text-content {
+         display: inline-block;
 
          .card-title, .card_price {
            display: inline-flex;
@@ -89,7 +101,7 @@ export default {
 
          }
 
-         .card_price {
+         .card_price, .card-price_span {
            font-family: Helvetica;
            font-size: 16px;
            font-style: normal;
@@ -98,6 +110,10 @@ export default {
            letter-spacing: 0em;
            text-align: left;
 
+         }
+
+         .card-price_span {
+           color: #C7C7C7;
          }
 
          .card-text {
@@ -110,12 +126,17 @@ export default {
            letter-spacing: -0.01em;
 
            color: #999999;
-
          }
 
          .card-actions {
            position: absolute;
            bottom: 34px;
+
+           @media (max-width: 1434px) {
+             margin-top: 2%;
+             bottom: 16px;
+             right: 2%;
+           }
 
            .card-button {
              display: inline-block;
@@ -138,6 +159,12 @@ export default {
                background-color: #4b4b4b;
              }
 
+             @media (max-width: 767px) {
+               width: 100px;
+               height: 30px;
+               line-height: 30px;
+             }
+
            }
 
            .card-button_favorite {
@@ -156,6 +183,15 @@ export default {
        }
      }
 
+     @media (max-width: 679px) {
+       padding: 0 2%;
+     }
+
+     .img-block {
+       @media (max-width: 679px) {
+         display: none;
+       }
+     }
    }
  }
 

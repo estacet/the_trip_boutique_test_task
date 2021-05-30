@@ -41,6 +41,11 @@ export default {
   position: relative;
   margin-top: 11px;
   margin-left: 147px;
+  margin-right: 30px;
+
+  @media (max-width: 1200px) {
+      margin-left: unset;
+  }
 
   .header-menu {
     position: relative;
@@ -52,7 +57,14 @@ export default {
     .header-menu_tab {
       width: inherit;
       height: 38px;
-      // left: 263px;
+
+      @media (max-width: 1200px) {
+        margin: 0 60px;
+      }
+
+      @media (max-width: 350px) {
+        margin: unset;
+      }
 
       .nav-tabs {
         border-bottom: none;
@@ -82,6 +94,10 @@ export default {
 
           &:first-child {
             margin-right: 98px;
+
+            @media (max-width: 540px) {
+              margin-right: 10%;
+            }
           }
 
         }
@@ -89,8 +105,19 @@ export default {
     }
 
     .tab-content {
-      position: absolute;
       margin-top: 107px;
+
+      @media (max-width: 991px) {
+        margin-top: 400px;
+      }
+
+      @media (max-width: 540px) {
+        margin-top: 450px;
+      }
+
+      @media (max-width: 371px) {
+        margin-top: 480px;
+      }
     }
   }
 }
