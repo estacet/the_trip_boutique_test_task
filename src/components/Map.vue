@@ -89,7 +89,7 @@ export default {
     height: 824px;
 
     @media (max-width: 991px) {
-      margin: 40px 0;
+      margin: 20px 0;
       height: 252px;
     }
   }

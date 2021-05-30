@@ -11,6 +11,7 @@
       </b-tabs>
     </div>
     <HeaderFilters/>
+    <h1>Day 1</h1>
   </div>
 </template>
 
@@ -101,16 +102,32 @@ export default {
       margin-top: 107px;
 
       @media (max-width: 991px) {
-        margin-top: 400px;
+        margin-top: 420px;
       }
 
       @media (max-width: 540px) {
-        margin-top: 450px;
+        margin-top: 470px;
       }
 
-      @media (max-width: 371px) {
-        margin-top: 480px;
+      @media (max-width: 426px) {
+        margin-top: 540px;
       }
+    }
+  }
+
+  h1 {
+    margin-top: 6px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    @media (max-width: 991px) {
+      margin-top: 20px;
+      text-align: center;
     }
   }
 }
